@@ -1,0 +1,37 @@
+name: HMFYC_ENV_P3.6
+channels:
+  - defaults
+dependencies:
+  - certifi=2019.11.28=py36_0
+  - pip=20.0.2=py36_1
+  - python=3.6.10=h9f7ef89_0
+  - setuptools=45.2.0=py36_0
+  - sqlite=3.31.1=he774522_0
+  - vc=14.1=h0510ff6_4
+  - vs2015_runtime=14.16.27012=hf0eaf9b_1
+  - wheel=0.34.2=py36_0
+  - wincertstore=0.2=py36h7fe50ca_0
+  - pip:
+    - astroid==2.3.3
+    - beautifulsoup4==4.8.2
+    - chardet==3.0.4
+    - colorama==0.4.3
+    - idna==2.8
+    - isort==4.3.21
+    - lazy-object-proxy==1.4.3
+    - lxml==4.5.0
+    - mccabe==0.6.1
+    - numpy==1.18.1
+    - pandas==1.0.1
+    - pillow==7.2.0
+    - pylint==2.4.4
+    - python-dateutil==2.8.1
+    - pytz==2019.3
+    - requests==2.22.0
+    - six==1.14.0
+    - soupsieve==1.9.5
+    - typed-ast==1.4.1
+    - urllib3==1.25.8
+    - wrapt==1.11.2
+prefix: c:\Users\OroszL\Anaconda3\envs\HMFYC_ENV_P3.6
+
