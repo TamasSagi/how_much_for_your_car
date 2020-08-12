@@ -82,6 +82,7 @@ class CarCrawler( object ):
             current_datetime_str = datetime.datetime.now( ).strftime( '%Y_%m_%d_%H_%M_%S' )
             filename = 'data/' + current_datetime_str + '_export.pkl'
             
+            # If the /data folder doesn't exists create it
             data_folder_path = os.path.join( os.getcwd(), 'data')
             if not os.path.exists( data_folder_path ):
                 os.mkdir( data_folder_path )
